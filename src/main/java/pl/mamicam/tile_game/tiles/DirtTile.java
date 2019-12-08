@@ -1,0 +1,10 @@
+package pl.mamicam.tile_game.tiles;
+
+import pl.mamicam.tile_game.gfx.Assets;
+
+public class DirtTile extends Tile {
+
+    public DirtTile(int id) {
+        super(Assets.dirt, id);
+    }
+}
